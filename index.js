@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const PAY_TO = "0xce3e2e571d25cca5527722699ffab1b71cc83a15";
+const PAY_TO = "0x67681322803830bd3cd2e5cc606dC397D29bC038";
 
 async function startServer() {
     const { paymentMiddleware, x402ResourceServer } =
